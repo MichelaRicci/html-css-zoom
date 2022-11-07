@@ -74,7 +74,7 @@ main {
 }
 
 img { 
-    width: calc(100% / 7);
+    flex-basis: calc(100% / 7 - 38px);
 }
 
 
