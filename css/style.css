@@ -28,8 +28,9 @@ body {
 
  
 .container {
-    max-width: 1200px;
-    margin: 0 30px;
+    width: 100%;
+    margin: auto;
+    border: 2px dashed #ffffff;
     
 }
 
@@ -48,22 +49,22 @@ header {
 /* Main */
 
 main {
-    max-width: 1200px;
+    max-width: 100%;
+    height: calc(100vh - 100px);
     text-align: center;
     padding-top: 45px;
+
     display: flex;
     position: relative;
 }
 
 .row {
-    width: 1200px;
-
-    position: relative;
-
+    width: 100%;
+    padding: 0 5px;
+   
     display: flex;
-    justify-content: space-between;
+
     flex-wrap: wrap;
-    text-align: center;
 
 }
 
@@ -73,7 +74,7 @@ main {
 }
 
 img { 
-    width: calc(1200px / 7 - 10px);
+    width: calc(100% / 7);
 }
 
 
