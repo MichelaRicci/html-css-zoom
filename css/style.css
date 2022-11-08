@@ -8,7 +8,6 @@
 
 body {
     font-family: sans-serif;
-    /* text-align: center; */
     background-color: #000000;
 }
 
@@ -48,7 +47,7 @@ ul {
 }
 
 li {
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
 
 
@@ -71,7 +70,7 @@ header {
 button {
     background-color: #4A4A4A;
     color: #ffffff;
-    padding: 4px;
+    padding: 5px;
     border-radius: 5px;
     font-size: 14px;
 
@@ -94,7 +93,6 @@ main {
 
 .row {
     width: 100%;
-    /* padding: 0 5px; */
    
     display: flex;
     justify-content: center;
@@ -115,8 +113,6 @@ main {
  
     max-width: 100%;
     display: block;
-
-    position: relative;
 }
 
 .pic {
@@ -170,16 +166,18 @@ footer {
 
 .footer-left {
 
-    border: 2px dashed white;
-    /* align-self: stretch;
+    /* border: 2px dashed white; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; */
+    align-items: stretch;
 
 }
 
 .footer-center {
-    border: 2px dashed white;
+    /* border: 2px dashed white; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .footer-ul {
@@ -187,11 +185,26 @@ footer {
     
 }
 
-.left-label {
-    color: #ffffff;
-    font-size: 12px;
+.left-icons {
+    display: flex;
+    justify-content: space-between;
 }
 
+.left-label {
+    color: #ffffff;
+    font-size: 11px;
+    justify-content: space-around;
+}
+
+.center-icons {
+    justify-content: space-between;
+}
+
+.center-label {
+    color: #ffffff;
+    font-size: 11px;
+    justify-content: space-around;
+}
 
 footer .end-meeting {
     align-self: stretch;
@@ -212,10 +225,21 @@ footer .end-meeting {
 
 
 li > i { 
-    padding: 0 11px;
+    padding: 0 5px;
+    font-size: 24px;
 }
 
 
+.fa-share-from-square {
+    color: #4DC801;
+    /* padding-right: 10px; */
+    
+}
+
+.fa-angle-up {
+    font-size: 10px;
+    padding-left: 30px;
+}
 
 
 
